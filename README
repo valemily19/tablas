@@ -1,0 +1,20 @@
+# Proyecto Tablas HTML
+
+Este proyecto contiene ejemplos de tablas HTML con diferentes temáticas y estilos visuales. Incluye el uso de celdas (`<td>`), imágenes (`<img>`) y estilos CSS personalizados para mejorar la presentación de la información.
+
+## Estructura
+- **Carpeta `html/`**: Archivos HTML con tablas temáticas (videojuegos, arte, deportes, música, etc.).
+- **Carpeta `img/`**: Imágenes utilizadas en las tablas para ilustrar cada tema.
+
+## Características principales
+- Uso de la etiqueta `<td>` para definir celdas en las tablas.
+- Inclusión de imágenes en las celdas mediante la etiqueta `<img>`, con estilos para tamaño uniforme y bordes redondeados.
+- Personalización visual con CSS: colores, tipografía, bordes y efectos hover.
+- Ejemplos de tablas con diferentes temas y datos representativos.
+
+## Cómo ver los ejemplos
+1. Abre cualquier archivo HTML dentro de la carpeta `html/` en tu navegador.
+2. Asegúrate de que la ruta de las imágenes en las tablas coincida con la ubicación real de los archivos en la carpeta `img/`.
+
+## Créditos
+Proyecto educativo para practicar el uso de tablas, celdas e imágenes en HTML y CSS.

@@ -5,21 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notas segundo trimestre</title>
     <style>
-    table, th , td {
-        border: 1px solid black;
-        border-collapse: collapse;
-        width: 45%;
-        margin: auto;
-        text-align: center;
-        padding: 5px 20px;
-        font-size: 20px;  
-        font-family:Comic Sans MS, cursive, sans-serif; 
+    body {
+        background: linear-gradient(135deg, #f8fafc 0%, #cf628e6e 100%);
+        min-height: 100vh;
+       
     }
-    h1 , p {
+    table {
+        border-radius: 16px;
+        width: 90%;
+        max-width: 600px;
+        margin: 40px auto 20px auto;
+        overflow: hidden;
+        background: #fff;
+        font-family: Comic Sans MS, cursive, sans-serif; 
+    }
+    th, td {
+        border: none;
+        padding: 16px 24px;
+        font-size: 20px;
         text-align: center;
         font-family: Comic Sans MS, cursive, sans-serif; 
     }
+    th {
+        background-color: rgb(238, 14, 107);
+        color: white;
+        font-size: 22px;
+        letter-spacing: 1px;
 
+    }
+    tr {
+        transition: background 0.2s; /* Hace suave el cambio de color al pasar el mouse */
+            }
+    tr:hover:not(:first-child) {
+        background-color: #ffe0f7; /* Cambia el fondo al pasar el mouse, menos en la primera fila */
+    }
+    h1 {
+        text-align: center;
+        color: rgb(238, 14, 107);
+        margin-top: 32px;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        font-family: Comic Sans MS, cursive, sans-serif; 
+    }
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #333;
+        font-family: Comic Sans MS, cursive, sans-serif; 
+    }
+    
     </style>
 </head>
 <body>
@@ -28,28 +62,27 @@
     <p><strong>Menú</strong></p>
     
     <table>
-        <tr style="background-color: rgb(238, 14, 107);
-            color: white;">
-            <td><strong>Nombre</strong></td>
-            <td><strong>Materia</strong></td>
-            <td><strong>Nota</strong></td>
+        <tr>
+            <th>Nombre</th>
+            <th>Materia</th>
+            <th>Nota</th>
         </tr>
-        <tr style="background-color: white;">
-            <td>Jesus</td>
+        <tr>
+            <td>Jesus</td> <!-- Esto es una celda de datos -->
             <td>Ingles</td>
             <td>35</td>
-        <tr style="background-color: white;">
+        </tr>
+        <tr>
             <td>Vale</td>
             <td>Biologia</td>
             <td>45</td>
         </tr>
-        <tr style="background-color: white;">
+        <tr>
             <td>Pedro</td>
             <td>fisica</td>
             <td>40</td>
         </tr>
     </table>
-    
     <p>© 2025</p>
 </body>
 </html>

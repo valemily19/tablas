@@ -3,57 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Razas de Gatos</title>
+    <title>Peliculas Recomendadas</title>
     <style>
-    table, th , td {
-        border: 1px solid rgb(193, 0, 246);
-        border-collapse: collapse;
-        width: 80%;
-        background-color: rgb(248, 248, 248);
-        margin: auto;
-        text-align: center;
-        padding: 15px;
+    body {
+        background: linear-gradient(135deg, #1a1a1a 60%, #22223b 100%);
+        margin: 0;
     }
-    h1 , p {
-        text-align: center;
+    table {
+        border: 2px solid #f5c518;
+        border-radius: 12px;
+        background-color: rgba(34, 34, 59, 0.95);
+        width: 45%;
+        margin: 30px auto 20px auto;
     }
-
+    td, th  {
+        border: 1px solid #f5c518;
+        text-align: center;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #fff;
+    }
+   
+    h1 {
+        text-align: center;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #f5c518;
+    }
+    
+    p {
+        text-align: center;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: #f1f1f1;
+        font-size: 20px;
+    }
+    img {
+        border-radius: 8px;
+    }
     </style>
 </head>
 <body>
-    <h1>Razas de Gatos</h1>
+    <h1>Peliculas Recomendadas</h1>
     
     <p><strong>Menú</strong></p>
     
     <table>
-        <tr>
-            <td><strong>Raza</strong></td>
-            <td><strong>Descripcion</strong></td>
+        <tr style="background-color: rgb(5, 10, 69); color: white;">
             <td><strong>Imagen</strong></td>
+            <td><strong>Titulo</strong></td>
+            <td><strong>Genero</strong></td>
         </tr>
         <tr>
-            <td>Persa</td> 
-            <td>Gato de cara ancha y aplanada, con pelaje largo y abundante. De carácter noble y amable, se adapta bien a la vida en interiores y disfruta de la compañía humana. Se encuentra en varios colores como blanco, gris, negro y marrón</td>
             <td>
-                 <img src="img/un_gato_persa-39.jpg" alt="pais" width="350">
+                 <img src="../img/Interstellar.jpg" alt="Peliculas" width="255" height="400">
             </td>
+            <td>Interstellar</td> 
+	        <td>Ciencia Ficcion</td>
         </tr>
-        <tr>
-            <td>Siamés</td>
-            <td>De cuerpo esbelto y pelaje fino, con un patrón de color claro en el cuerpo y oscuro en patas, cola, hocico y orejas. Sus ojos son azul celeste. Es muy curioso, independiente y vocal, con un maullido característico</td>
+         <tr>
             <td>
-                 <img src="img/siames.avif" alt="pais" width="350">
+                 <img src="../img/black panther.jpeg" alt="Peliculas" width="255" height="400">
             </td>
+            <td>Black Panther</td> 
+	        <td>Acción / Cultural</td>
         </tr>
-        <tr>
-            <td>Siberiano</td>
-            <td>Originario de Siberia, tiene un pelaje denso y triple capa para protegerse del frío. Puede presentar varios colores y patrones. Es sociable, cariñoso y juguetón</td>
+         <tr>
             <td>
-                 <img src="img/siberiano.jpg" alt="pais" width="350">
+                 <img src="../img/avatar.jpg" alt="Peliculas" width="255" height="400">
             </td>
-        </tr>
+            <td>Avatar</td> 
+            <td>Ciencia Ficcion</td>
+        
     </table>
-    
+
     <p>© 2025</p>
 </body>
 </html>
